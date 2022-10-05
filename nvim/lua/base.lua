@@ -6,7 +6,7 @@ vim.opt.fileencoding = 'utf-8'
 
 vim.wo.number = true
 vim.wo.relativenumber = true
-
+vim.opt.clipboard = "unnamedplus" -- Allows NeoVim access to the system clipboard
 vim.opt.title = true
 vim.opt.autoindent = true
 vim.opt.hlsearch = true --highlight search
